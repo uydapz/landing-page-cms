@@ -380,7 +380,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-For support, email your.uydapzone@gmail.com or create an issue in the repository.
+For support, email uydapzone@gmail.com or create an issue in the repository.
 
 ---
 
