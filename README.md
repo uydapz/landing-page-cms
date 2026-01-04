@@ -103,48 +103,6 @@ npm run build
 php artisan serve
 ```
 
-Visit: [http://localhost:8000](http://localhost:8000)
-
-## 📂 Project Structure
-
-```
-laravel-landing-page/
-├── app/
-│   ├── Http/
-│   │   ├── Controllers/
-│   │   │   ├── HomeController.php      # Landing page controller
-│   │   │   └── ContactController.php   # Contact form handler
-│   │   └── Requests/
-│   │       └── ContactRequest.php      # Contact form validation
-│   └── Mail/
-│       └── ContactMail.php             # Contact email
-├── resources/
-│   ├── views/
-│   │   ├── layouts/
-│   │   │   └── app.blade.php           # Main layout
-│   │   ├── sections/
-│   │   │   ├── hero.blade.php          # Hero section
-│   │   │   ├── features.blade.php      # Features section
-│   │   │   ├── about.blade.php         # About section
-│   │   │   ├── services.blade.php      # Services section
-│   │   │   ├── pricing.blade.php       # Pricing section
-│   │   │   ├── testimonials.blade.php  # Testimonials
-│   │   │   ├── faq.blade.php           # FAQ section
-│   │   │   └── contact.blade.php       # Contact form
-│   │   └── welcome.blade.php           # Main landing page
-│   ├── css/
-│   │   └── app.css                     # Custom styles
-│   └── js/
-│       └── app.js                      # Custom scripts
-├── public/
-│   ├── images/                         # Images
-│   └── assets/                         # Static assets
-├── routes/
-│   └── web.php                         # Web routes
-└── database/
-    └── migrations/                     # Database migrations
-```
-
 ## 🎨 Customization
 
 ### 1. Update Content
@@ -328,7 +286,7 @@ php artisan export
 
 ### SEO Settings
 
-Edit `resources/views/layouts/app.blade.php`:
+Edit `resources/views/components/pages/index.blade.php`:
 
 ```blade
 <title>{{ $title ?? 'Your Site Title' }}</title>
@@ -409,9 +367,9 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 👤 Author
 
 **Your Name**
-- Website: [yourwebsite.com](https://yourwebsite.com)
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: your.email@example.com
+- Website: [dapzgank.my.id](https://dapzgak.my.id)
+- GitHub: [@uydapz](https://github.com/uydapz)
+- Email: uydapzone@gmail.com
 
 ## 🙏 Acknowledgments
 
@@ -422,7 +380,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📞 Support
 
-For support, email your.email@example.com or create an issue in the repository.
+For support, email your.uydapzone@gmail.com or create an issue in the repository.
 
 ---
 
